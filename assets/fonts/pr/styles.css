@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'proximanova_regular';
+  src: url(./proximanova_regular.eot);
+  src: url(./proximanova_regular.eot?#iefix) format('embedded-opentype'),
+       url(./proximanova_regular.woff) format('woff'),
+       url(./proximanova_regular.woff2) format('woff2');
+}

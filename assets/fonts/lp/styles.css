@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'lenorapremium_regular';
+  src: url(./lenorapremium_regular.eot);
+  src: url(./lenorapremium_regular.eot?#iefix) format('embedded-opentype'),
+       url(./lenorapremium_regular.woff) format('woff'),
+       url(./lenorapremium_regular.woff2) format('woff2');
+}
