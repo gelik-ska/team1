@@ -68,3 +68,17 @@
     margin-bottom: 2rem;
   }
 }/*# sourceMappingURL=style.css.map */
+
+#btn_diamond:hover {
+  background-color: #333333;
+  color: #F2F2F2;
+}
+#title_rings {
+  font-size: 60px;
+  font-family: "PR", sans-serif;
+  font-weight: 400;
+  color: #111111;
+}
+#text_rings {
+  font-family: "PR", sans-serif;
+}
