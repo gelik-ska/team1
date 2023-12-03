@@ -1,0 +1,24 @@
+@import "./vars";
+
+%button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 12.375rem;
+    height: 4rem;
+    background-color: #ffffff; 
+    color: $black; 
+    border: 1px solid $black; // Черный ободок
+    border-radius: 4px; // Закругленные края
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "PR", sans-serif;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+
+    &:hover {
+      background-color: #333333; // Цвет фона при наведении 
+      color: $white; 
+      border-color: #ffffff; // Цвет границы при наведении (белый)
+    }
+}
