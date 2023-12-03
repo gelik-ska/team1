@@ -1,1 +1,70 @@
-/*# sourceMappingURL=style.css.map */
+.btn.primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 12.375rem;
+  height: 4rem;
+  background-color: #ffffff;
+  color: #111111;
+  border: 1px solid #111111;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "PR", sans-serif;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+.btn.primary:hover {
+  background-color: #333333;
+  color: #F2F2F2;
+  border-color: #ffffff;
+}
+
+@font-face {
+  font-family: "PR";
+  src: url(../assets/fonts/lp/lenorapremium_regular.eot);
+  src: url(../assets/fonts/pr/proximanova_regular.eot?#iefix) format("embedded-opentype"), url(../assets/fonts/pr/proximanova_regular.woff) format("woff"), url(../assets/fonts/pr/proximanova_regular.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LP";
+  src: url(./lenorapremium_regular.eot);
+  src: url(./lenorapremium_regular.eot?#iefix) format("embedded-opentype"), url(./lenorapremium_regular.woff) format("woff"), url(./lenorapremium_regular.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+.main-learn__text {
+  font-size: 18px;
+  font-family: "PR", sans-serif;
+  margin: 2rem 0 1.25rem 0;
+  color: #111111;
+  max-width: 19.375rem;
+}
+.main-learn__title {
+  font-size: 40px;
+  font-family: "PR", sans-serif;
+  font-weight: 400;
+  margin-top: 1.5rem;
+  color: #111111;
+  max-width: 19.375rem;
+}
+
+.learn {
+  background-image: url("../assets/pic/learn/Gradient.png");
+  background-repeat: no-repeat;
+  padding: 3.75rem 0;
+  font-family: "PR", sans-serif;
+  font-size: 40px;
+}
+
+@media (max-width: 767px) {
+  .btn.primary {
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .btn.primary {
+    margin-bottom: 2rem;
+  }
+}/*# sourceMappingURL=style.css.map */
