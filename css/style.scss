@@ -10,6 +10,50 @@
 
 // -----------------------------------WHY_CHOOSE---------------------------------- //
 
+$background-color1: {
+    rgba(242, 242, 242, 1)
+};
+
+#why_choose_us {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 100vw;
+    grid-template-areas: "rsn1 rsn2 col-4 col-4";
+    background-color: $background-color1;
+    width: 100%;
+}
+
+#wcu {
+    padding-left: 200vw;
+}
+
+#why_choose_rsn1 {
+    grid-area: rsn1;
+}
+
+#why_choose_rsn2 {
+    grid-area: rsn2;
+}
+
+#why_choose_rsn3 {
+    grid-area: rsn3;
+}
+
+#why_choose_rsn4 {
+    grid-area: rsn4;
+}
+
+#why_Choose_fig1 {
+    color: #000;
+text-align: center;
+font-family: $LP;
+font-size: 14px;
+font-weight: 400;
+line-height: 142.857%;
+letter-spacing: 0.28px;
+text-transform: uppercase;
+}
 
 
 // -----------------------------------QUOTE--------------------------------------- //
