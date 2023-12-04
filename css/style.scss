@@ -46,7 +46,7 @@
 
 
 
-// -----------------------------------LEARN--------------------------------------- //
+// -----------------------------------LEARN-SECTION-------------------------------------- //
  body{
      color: $black;   
      font-family: "PR", sans-serif;
@@ -87,37 +87,51 @@ padding: 3.75rem 0;
 font-family: "PR", sans-serif;
 font-size: 40px;
 }
+/*-----------------MOBILE-VERSION-LEARN----------------------*/
+
+@media (max-width: 767px) {
+    .btn.primary {
+      margin-bottom: 2rem;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .btn.primary {
+        margin-bottom: 2rem;
+      }
+    }
 
 
-// -----------------------------------QUESTIONS----------------------------------- //
+// -----------------------------------QUESTIONS-SECTION----------------------------------- //
 
 
 .questions {
     background-image: url("../assets/pic/questions/questions_ring.png"); 
     background-position: right;
-    background-size: px;
     background-repeat: no-repeat;
     border-top: 1px solid $black;
     
   }
 
+
+
   /*-----------------ACCORDION----------------------*/
 
-    .transparent-accordion .accordion-item {
+    .accordion-item {
     background-color: rgba(255, 255, 255, 0.1); /* Прозрачный белый цвет фона */
     margin-bottom: 2rem; /* Расстояние между элементами аккордеона */
-    border: 0.5px solid $black; /* Черный ободок */
-    border-radius: 8px; /* Закругление углов */
+    border: 0.5px solid $black; 
+    border-radius: 8px; 
   }
 
-  .transparent-accordion .accordion-button {
+ .accordion-button {
     background-color: transparent;
-    color: $black; /* Цвет текста кнопки */
-    border: 0.5px solid $black; /* Черный ободок */
-    border-radius: 8px; /* Закругление углов */
+    color: $black; 
+    border: 0.5px solid $black; 
+    border-radius: 8px; 
   }
 
-  .transparent-accordion .accordion-collapse {
+   .accordion-collapse {
     background-color: rgba(255, 255, 255, 0.1); /* Прозрачный белый цвет фона для текста */
   }
 
@@ -133,18 +147,49 @@ font-size: 40px;
   .accordion-button:not(.collapsed)::after {
     background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
   }
+/*-----------------MOBILE-VERSION-QUESTIONS----------------------*/
 
-@media (max-width: 767px) {
-    .btn.primary {
-      margin-bottom: 2rem;
+  @media (max-width: 767px) {
+    .questions {
+      background-image: none; /* Убираем фоновую картинку */
+      background-color: $gray; /* Задаем серый цвет фона */
     }
+
+    .accordion-item{
+        margin-bottom: 1rem; /* Расстояние между элементами аккордеона */
+    }
+
+  .accordion-button, .accordion-item, .card-body{
+    background-color: white;
+   }
+
+   .accordion-button, .accordion-button.collapsed {
+     font-weight: 700;
+   }
+
+   .transparent-accordion .accordion-button {
+    font-weight: 600;
+  }
+  
+  .transparent-accordion .accordion-button.collapsed {
+    font-weight: 600;
+  }
+  
+  .transparent-accordion .accordion-button:not(.collapsed) {
+    font-weight: 600;
   }
 
-  @media (min-width: 768px) and (max-width: 991px) {
-    .btn.primary {
-        margin-bottom: 2rem;
-      }
+  .extra-space {
+    background-color: $gray;
     }
+}
+
+
+    
+
+
+
+
 
 
 // -----------------------------------WHAT_NEW------------------------------------ //
