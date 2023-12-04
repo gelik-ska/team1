@@ -87,26 +87,39 @@ body {
 }
 
 /*-----------------ACCORDION----------------------*/
-.accordion-item {
+.accordion-item { /* Стили для всего элемента аккордеона */
   background-color: rgba(255, 255, 255, 0.1); /* Прозрачный белый цвет фона */
   margin-bottom: 2rem; /* Расстояние между элементами аккордеона */
   border: 0.5px solid #111111;
   border-radius: 8px;
 }
 
-.accordion-button {
+.accordion-button { /*  Общие стили для кнопки аккордеона */
   background-color: transparent;
   color: #111111;
   border: 0.5px solid #111111;
   border-radius: 8px;
+  box-shadow: 0px black;
 }
 
-.accordion-collapse {
+.accordion-collapse { /* Стили для контейнера развернутого содержимого аккордеона */
   background-color: rgba(255, 255, 255, 0.1); /* Прозрачный белый цвет фона для текста */
+  border: 0.5px solid #F2F2F2;
 }
 
-.accordion-button:not(.collapsed) {
+.accordion-button:not(.collapsed) { /* Стили для развернутого (открытого) состояния */
   border-bottom: none;
+  background-color: transparent;
+  color: #111111;
+  box-shadow: 4px 4px 4px #d3d3d3;
+}
+
+.accordion-button.collapsed { /* как должна выглядеть кнопка аккордеона, когда она свернута */
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #111111;
+}
+
+.accordion-button:focus {
+  border-color: #111111;
 }
 
 .accordion-button::after {
@@ -133,13 +146,13 @@ body {
   .accordion-button, .accordion-button.collapsed {
     font-weight: 700;
   }
-  .transparent-accordion .accordion-button {
+  .accordion-button {
     font-weight: 600;
   }
-  .transparent-accordion .accordion-button.collapsed {
+  .accordion-button.collapsed {
     font-weight: 600;
   }
-  .transparent-accordion .accordion-button:not(.collapsed) {
+  .accordion-button:not(.collapsed) {
     font-weight: 600;
   }
   .extra-space {
