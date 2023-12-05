@@ -57,6 +57,18 @@ body {
   margin-bottom: 116px;
 }
 
+
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+  .heart-tiitle {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+
+}
 // -----------------------------------INVITATION---------------------------------- //
 
 .invitation {
@@ -103,12 +115,42 @@ body {
   font-family: "PR", sans-serif;
   text-transform: uppercase;
   transition: background-color 0.3s ease, color 0.3s ease,
-    border-color 0.3s ease;
+  border-color 0.3s ease;
   margin: 2.125rem 0 4.5rem;
 }
 .invitation-btn:hover {
   background-color: #33333386;
   color: white;
+}
+
+
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+  .invitation-tittle {
+    padding: 96.25px 0 21.25px;
+  }
+  .invitation-btn {
+    margin: 3.25rem 0 6rem;
+    width: 11rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .invitation-tittle {
+    font-size: 1.75rem;
+    line-height: 1.5rem;
+    padding: 53px 0 17px;
+  }
+  .invitation-btn {
+    width: 12.5rem;
+    height: 3rem;
+    font-size: 0.75rem;
+    margin: 2.125rem 0 5rem;
+  }
+}
+
+@media (max-width: 767px) {
+
 }
 
 // -----------------------------------FAVOURITES---------------------------------- //
@@ -119,7 +161,7 @@ body {
   color: #000;
   text-align: center;
   font-size: 2.5rem;
-  font-style: normal;
+  font-style: normal;c
   font-weight: 500;
   line-height: 2.5rem;
   text-transform: capitalize;
@@ -130,6 +172,7 @@ body {
   display: flex;
   justify-content: space-around;
 }
+
 .card img {
   max-width: 100%;
   max-height: 100%;
@@ -169,6 +212,27 @@ body {
 .favourites-card__img {
   width: 18rem;
 }
+
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+  .favourites {
+    margin: 5.75rem 0 7.75rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .favourites {
+    margin: 3.125rem 0 7.75rem;
+  }
+  .favourites-tittle {
+    font-size: 1.75rem;
+    line-height: 2rem;
+  }
+  .card {
+    width: 12.5rem;
+  }
+}
+
 // -----------------------------------STARS--------------------------------------- //
 
 // -----------------------------------LEARN-SECTION-------------------------------------- //
