@@ -76,6 +76,12 @@ body {
   margin-bottom: 116px;
 }
 
+@media (min-width: 1280px) and (max-width: 1439px) {
+  .heart-tiitle {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+}
 .invitation {
   background-image: url(../assets/pic/invitation/U2A25461.png);
   background-repeat: no-repeat;
@@ -128,6 +134,28 @@ body {
   color: white;
 }
 
+@media (min-width: 1280px) and (max-width: 1439px) {
+  .invitation-tittle {
+    padding: 96.25px 0 21.25px;
+  }
+  .invitation-btn {
+    margin: 3.25rem 0 6rem;
+    width: 11rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1279px) {
+  .invitation-tittle {
+    font-size: 1.75rem;
+    line-height: 1.5rem;
+    padding: 53px 0 17px;
+  }
+  .invitation-btn {
+    width: 12.5rem;
+    height: 3rem;
+    font-size: 0.75rem;
+    margin: 2.125rem 0 5rem;
+  }
+}
 .favourites {
   margin: 3.75rem 0 9.75rem;
 }
@@ -188,6 +216,23 @@ body {
   width: 18rem;
 }
 
+@media (min-width: 1280px) and (max-width: 1439px) {
+  .favourites {
+    margin: 5.75rem 0 7.75rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1279px) {
+  .favourites {
+    margin: 3.125rem 0 7.75rem;
+  }
+  .favourites-tittle {
+    font-size: 1.75rem;
+    line-height: 2rem;
+  }
+  .card {
+    width: 12.5rem;
+  }
+}
 body {
   color: #111111;
   font-family: "PR", sans-serif;
@@ -215,6 +260,7 @@ body {
 
 .learn {
   background-image: url("../assets/pic/learn/Gradient.png");
+  background-size: contain;
   background-repeat: no-repeat;
   padding: 3.75rem 0;
   font-family: "PR", sans-serif;
@@ -240,26 +286,39 @@ body {
 }
 
 /*-----------------ACCORDION----------------------*/
-.accordion-item {
+.accordion-item { /* Стили для всего элемента аккордеона */
   background-color: rgba(255, 255, 255, 0.1); /* Прозрачный белый цвет фона */
   margin-bottom: 2rem; /* Расстояние между элементами аккордеона */
   border: 0.5px solid #111111;
   border-radius: 8px;
 }
 
-.accordion-button {
+.accordion-button { /*  Общие стили для кнопки аккордеона */
   background-color: transparent;
   color: #111111;
   border: 0.5px solid #111111;
   border-radius: 8px;
+  box-shadow: 0px black;
 }
 
-.accordion-collapse {
+.accordion-collapse { /* Стили для контейнера развернутого содержимого аккордеона */
   background-color: rgba(255, 255, 255, 0.1); /* Прозрачный белый цвет фона для текста */
+  border: 0.5px solid #F2F2F2;
 }
 
-.accordion-button:not(.collapsed) {
+.accordion-button:not(.collapsed) { /* Стили для развернутого (открытого) состояния */
   border-bottom: none;
+  background-color: transparent;
+  color: #111111;
+  box-shadow: 4px 4px 4px #d3d3d3;
+}
+
+.accordion-button.collapsed { /* как должна выглядеть кнопка аккордеона, когда она свернута */
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #111111;
+}
+
+.accordion-button:focus {
+  border-color: #111111;
 }
 
 .accordion-button::after {
@@ -280,22 +339,19 @@ body {
   .accordion-item {
     margin-bottom: 1rem; /* Расстояние между элементами аккордеона */
   }
-  .accordion-button,
-  .accordion-item,
-  .card-body {
+  .accordion-button, .accordion-item, .card-body {
     background-color: white;
   }
-  .accordion-button,
-  .accordion-button.collapsed {
+  .accordion-button, .accordion-button.collapsed {
     font-weight: 700;
   }
-  .transparent-accordion .accordion-button {
+  .accordion-button {
     font-weight: 600;
   }
-  .transparent-accordion .accordion-button.collapsed {
+  .accordion-button.collapsed {
     font-weight: 600;
   }
-  .transparent-accordion .accordion-button:not(.collapsed) {
+  .accordion-button:not(.collapsed) {
     font-weight: 600;
   }
   .extra-space {
