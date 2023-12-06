@@ -2,21 +2,6 @@
 @use "./fonts";
 @import "./vars";
 
-html,
-body {
-  height: 100%;
-}
-
-body {
-  margin: 0;
-  font-family: "PR", sans-serif;
-  font-size: 16px;
-}
-
-.container {
-  max-width: 1440px;
-  margin: 0 auto;
-}
 // -----------------------------------HEADER-------------------------------------- //
 
 // -----------------------------------MAIN---------------------------------------- //
@@ -57,8 +42,6 @@ body {
   margin-bottom: 116px;
 }
 
-
-
 @media (min-width: 1280px) and (max-width: 1439px) {
   .heart-tiitle {
     font-size: 5rem;
@@ -67,7 +50,6 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 1279px) {
-
 }
 // -----------------------------------INVITATION---------------------------------- //
 
@@ -115,15 +97,13 @@ body {
   font-family: "PR", sans-serif;
   text-transform: uppercase;
   transition: background-color 0.3s ease, color 0.3s ease,
-  border-color 0.3s ease;
+    border-color 0.3s ease;
   margin: 2.125rem 0 4.5rem;
 }
 .invitation-btn:hover {
   background-color: #33333386;
   color: white;
 }
-
-
 
 @media (min-width: 1280px) and (max-width: 1439px) {
   .invitation-tittle {
@@ -150,7 +130,6 @@ body {
 }
 
 @media (max-width: 767px) {
-
 }
 
 // -----------------------------------FAVOURITES---------------------------------- //
@@ -212,7 +191,6 @@ body {
 .favourites-card__img {
   width: 18rem;
 }
-
 
 @media (min-width: 1280px) and (max-width: 1439px) {
   .favourites {
@@ -277,15 +255,12 @@ body {
   font-size: 40px;
 }
 
-
-
 /*-----------------MOBILE-VERSION-LEARN----------------------*/
 
 @media (max-width: 767px) {
   .btn.primary {
     margin-bottom: 2rem;
   }
-  
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -305,50 +280,58 @@ body {
 
 /*-----------------ACCORDION----------------------*/
 
-.accordion-item {  /* Стили для всего элемента аккордеона */
+.accordion-item {
+  /* Стили для всего элемента аккордеона */
   background-color: rgba(255, 255, 255, 0.1); /* Прозрачный белый цвет фона */
   margin-bottom: 2rem; /* Расстояние между элементами аккордеона */
-  border: 0.5px solid $black; 
-  border-radius: 8px; 
+  border: 0.5px solid $black;
+  border-radius: 8px;
 }
 
-.accordion-button { /*  Общие стили для кнопки аккордеона */
+.accordion-button {
+  /*  Общие стили для кнопки аккордеона */
   background-color: transparent;
   color: $black;
-  border: 0.5px solid $black; 
-  border-radius: 8px; 
-  box-shadow:0px black;
+  border: 0.5px solid $black;
+  border-radius: 8px;
+  box-shadow: 0px black;
 }
 
- .accordion-collapse { /* Стили для контейнера развернутого содержимого аккордеона */
-  background-color: rgba(255, 255, 255, 0.1); /* Прозрачный белый цвет фона для текста */
+.accordion-collapse {
+  /* Стили для контейнера развернутого содержимого аккордеона */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* Прозрачный белый цвет фона для текста */
   border: 0.5px solid $gray;
 }
 
-.accordion-button:not(.collapsed) { /* Стили для развернутого (открытого) состояния */ 
+.accordion-button:not(.collapsed) {
+  /* Стили для развернутого (открытого) состояния */
   border-bottom: none;
   background-color: transparent;
   color: $black;
-  box-shadow:4px 4px 4px #d3d3d3;
+  box-shadow: 4px 4px 4px #d3d3d3;
 }
 
-.accordion-button.collapsed{ /* как должна выглядеть кнопка аккордеона, когда она свернута */
-box-shadow: 0.5px 0.5px 0.5px 0.5px $black;
+.accordion-button.collapsed {
+  /* как должна выглядеть кнопка аккордеона, когда она свернута */
+  box-shadow: 0.5px 0.5px 0.5px 0.5px $black;
 }
 
 .accordion-button:focus {
   border-color: $black;
 }
 
-
 .accordion-button::after {
   background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
-  transform: scale(.7) !important;
+  transform: scale(0.7) !important;
 }
 .accordion-button:not(.collapsed)::after {
   background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
 }
-
 
 /*-----------------MOBILE-VERSION-QUESTIONS----------------------*/
 
@@ -358,37 +341,150 @@ box-shadow: 0.5px 0.5px 0.5px 0.5px $black;
     background-color: $gray; /* Задаем серый цвет фона */
   }
 
-  .accordion-item{
-      margin-bottom: 1rem; /* Расстояние между элементами аккордеона */
+  .accordion-item {
+    margin-bottom: 1rem; /* Расстояние между элементами аккордеона */
   }
 
-.accordion-button, .accordion-item, .card-body{
-  background-color: white;
- }
+  .accordion-button,
+  .accordion-item,
+  .card-body {
+    background-color: white;
+  }
 
- .accordion-button, .accordion-button.collapsed {
-   font-weight: 700;
- }
+  .accordion-button,
+  .accordion-button.collapsed {
+    font-weight: 700;
+  }
 
- .accordion-button {
-  font-weight: 600;
-}
+  .accordion-button {
+    font-weight: 600;
+  }
 
-.accordion-button.collapsed {
-  font-weight: 600;
-}
+  .accordion-button.collapsed {
+    font-weight: 600;
+  }
 
- .accordion-button:not(.collapsed) {
-  font-weight: 600;
-}
+  .accordion-button:not(.collapsed) {
+    font-weight: 600;
+  }
 
-.extra-space {
-  background-color: $gray;
+  .extra-space {
+    background-color: $gray;
   }
 }
 
 // -----------------------------------WHAT_NEW------------------------------------ //
+.what_new {
+  background-image: url(../assets/pic/what_new/Gradient.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 3.75rem 0 0 0;
+  font-family: "PR", sans-serif;
+  &__text-title {
+    font-size: 40px;
+    color: white;
+    padding-bottom: 2.75rem;
+  }
 
+  &__img {
+    background-repeat: no-repeat;
+  }
+  img {
+    margin-bottom: 1.56rem;
+  }
+  &__title {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: $black;
+    margin-bottom: 1.56rem;
+  }
+  &__text {
+    font-size: 1.125rem;
+    color: $black;
+    max-width: 26.5rem;
+    height: 4.25rem;
+    margin-bottom: 3rem;
+  }
+  &__button {
+    margin-bottom: 5.5rem;
+  }
+}
 // -----------------------------------INSTAGRAM----------------------------------- //
-
+.instagram {
+  background-color: $gray;
+}
 // -----------------------------------FOOTER-------------------------------------- //
+
+.footer {
+  height: 19rem;
+  padding: 3.25rem 0 4.75rem 0;
+  background-image: url(../assets/pic/footer/Gradient.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  &__title {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    font-style: normal;
+    color: $gray;
+    height: 2rem;
+  }
+  &__text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    color: $gray;
+    max-width: 311px;
+    height: 8.75rem;
+  }
+  &__email {
+    margin-top: 0.5rem;
+    width: 15rem;
+    height: 3rem;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    background: #fbfbfb;
+    color: $black;
+    padding: 0 2rem 0 1.25rem;
+  }
+  &__button-subscribe {
+    width: 15rem;
+    height: 3rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+    background: $test3;
+    color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    text-align: start;
+    padding: 0 2rem 0 1.25rem;
+  }
+  &__button-subscribe:hover {
+    background-color: #2c313d;
+  }
+  &__company {
+    margin-left: 7rem;
+    &-link {
+      text-decoration: none;
+      color: #f2f2f2;
+      font-style: normal;
+      line-height: 16px;
+    }
+    &-link:hover {
+      color: $test2;
+    }
+  }
+  ul {
+    padding-left: 0;
+  }
+  li {
+    list-style-type: none;
+  }
+  &__back-to-top {
+    padding-left: 9rem;
+    &__icon {
+      margin-left: 4rem;
+    }
+  }
+}
