@@ -2,6 +2,21 @@
 @use "./fonts";
 @import "./vars";
 
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "PR", sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 // -----------------------------------HEADER-------------------------------------- //
 
 // -----------------------------------MAIN---------------------------------------- //
@@ -20,6 +35,10 @@
 .heart {
   margin-top: 84px;
   margin-bottom: 87px;
+}
+
+.heart768 {
+  display: none;
 }
 
 .heart-tiitle {
@@ -50,6 +69,54 @@
 }
 
 @media (min-width: 768px) and (max-width: 1279px) {
+  .heart {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    margin: 3rem 3.5rem 4rem;
+  }
+  .heart1440 {
+    display: none;
+  }
+  .heart768 {
+    display: flex;
+  }
+  .heart-tiitle {
+    font-size: 1.75rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+  }
+  .heart-text {
+    font-size: 0.875rem;
+    line-height: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .heart1440 {
+    display: none;
+  }
+  .heart768 {
+    display: flex;
+  }
+  .order {
+    &:first-child {
+      order: 0;
+    }
+    &:nth-child(2) {
+      order: 0;
+    }
+    &:nth-child(3) {
+      order: 1;
+    }
+    &:nth-child(4) {
+      order: 0;
+    }
+    &:nth-child(5) {
+      order: 1;
+    }
+    &:last-child {
+      order: 1;
+    }
+  }
 }
 // -----------------------------------INVITATION---------------------------------- //
 
