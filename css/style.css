@@ -51,6 +51,497 @@ body {
   margin: 0 auto;
 }
 
+@media (min-width: 1440px) {
+  .wedding_rings {
+    display: flex;
+    margin: 0 auto;
+    max-height: 41rem;
+  }
+  #div_1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+  }
+  #jumbotron {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 3%;
+  }
+  #view {
+    display: none;
+  }
+  #title_rings {
+    font-size: 60px;
+    font-weight: 400;
+    color: #111111;
+    max-width: 200px;
+    line-height: 64px;
+  }
+  #text_rings {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    max-width: 424px;
+  }
+  #rings_content {
+    position: relative;
+    max-width: 763px;
+  }
+  #rings_circle {
+    position: absolute;
+    top: 40%;
+    left: -20%;
+  }
+  .dropdown-divider {
+    display: flex;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1439px) {
+  .wedding_rings {
+    display: flex;
+    margin: 0 auto;
+    max-height: 44rem;
+  }
+  #div_1 {
+    display: flex;
+    flex-direction: column;
+  }
+  #jumbotron {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 3%;
+  }
+  #title_rings {
+    font-size: 60px;
+    font-weight: 400;
+    color: #111111;
+    max-width: 200px;
+    line-height: 64px;
+  }
+  #text_rings {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    max-width: 424px;
+  }
+  #rings_content {
+    position: relative;
+    max-width: 763px;
+  }
+  #rings_circle {
+    position: absolute;
+    top: 60%;
+    left: -15%;
+    width: 25%;
+  }
+  #add_card {
+    display: none;
+  }
+  .dropdown-divider {
+    display: flex;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1279px) {
+  .wedding_rings {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  #jumbotron {
+    display: flex;
+    background-image: url(../assets/pic/wedding_rings/Wedding_Rings_768.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  #div_1 {
+    margin: 3%;
+  }
+  #title_rings {
+    font-size: 1.75rem;
+    font-weight: 400;
+    color: white;
+    max-width: 500px;
+    min-width: 450px;
+    line-height: 64px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  #text_rings {
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem;
+    color: white;
+    text-align: center;
+    margin: 2%;
+    max-width: 528px;
+    min-width: 500px;
+  }
+  #rings_content {
+    display: none;
+  }
+  .btn_diamond {
+    margin: 0 auto;
+  }
+  #add_card {
+    display: none;
+  }
+  #lead {
+    display: flex;
+    justify-content: center;
+  }
+  .dropdown-divider {
+    display: flex;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1279px;
+  }
+  #view {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    color: white;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-family: "PR", sans-serif;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  }
+  #view:hover {
+    background-color: white;
+    color: black;
+  }
+}
+@media (max-width: 767px) {
+  .wedding_rings {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    min-width: 320px;
+  }
+  #jumbotron {
+    display: flex;
+    background-image: url(../assets/pic/wedding_rings/Wedding_Rings_320.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  #div_1 {
+    margin: 5%;
+  }
+  #title_rings {
+    font-size: 1.75rem;
+    font-weight: 400;
+    color: white;
+    max-width: 400px;
+    min-width: 350px;
+    line-height: 2rem;
+    text-align: center;
+    margin: 0 auto;
+  }
+  #text_rings {
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 264px;
+  }
+  #rings_content {
+    display: none;
+  }
+  .btn_diamond {
+    margin: 0 auto;
+  }
+  #add_card {
+    display: none;
+  }
+  #lead {
+    display: flex;
+    justify-content: center;
+  }
+  .dropdown-divider {
+    display: flex;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1279px;
+  }
+  #view {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 12.375rem;
+    color: white;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-family: "PR", sans-serif;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  }
+  #view:hover {
+    background-color: white;
+    color: black;
+  }
+}
+@media (min-width: 1440px) {
+  .diamonds2 {
+    background-image: url(../assets/pic/diamonds/Guide_To_Diamonds.png);
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    max-width: 90rem;
+    max-height: 496px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .div_diamond_text {
+    max-width: 537px;
+    margin: 3%;
+  }
+  #title_diamonds {
+    font-size: 60px;
+    font-weight: 400;
+    color: #111111;
+    max-width: 578px;
+    line-height: 64px;
+    margin-top: 5%;
+  }
+  .text_diamond {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    max-width: 537px;
+  }
+  .btn_diamond {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 12.375rem;
+    height: 4rem;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-family: "PR", sans-serif;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    margin-top: 1rem;
+  }
+  .btn_diamond:hover {
+    background-color: #333333;
+    color: white;
+  }
+  .four_diamonds {
+    display: none;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1439px) {
+  .diamonds2 {
+    background-image: url("../assets/pic/diamonds/Guide_To_Diamonds_1280.png");
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    max-width: 89.9rem;
+    max-height: 640px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .div_diamond_text {
+    max-width: 840px;
+    margin: 5%;
+  }
+  #title_diamonds {
+    font-size: 3.75rem;
+    font-weight: 400;
+    color: #111111;
+    max-width: 578px;
+    line-height: 4rem;
+  }
+  .text_diamond {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2rem;
+    max-width: 831px;
+  }
+  .btn_diamond {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 12.375rem;
+    height: 4rem;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-family: "PR", sans-serif;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    margin: 2.125rem 0 4.5rem;
+  }
+  .btn_diamond:hover {
+    background-color: #333333;
+    color: white;
+  }
+  .four_diamonds {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1279px) {
+  .diamonds2 {
+    background-image: url("../assets/pic/diamonds/Guide_To_Diamonds_1280.png");
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    max-width: 80rem;
+    max-height: 640px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .div_diamond_text {
+    max-width: 840px;
+    margin: 5%;
+  }
+  #title_diamonds {
+    font-size: 1.75rem;
+    font-weight: 400;
+    color: #111111;
+    max-width: 578px;
+    line-height: 2rem;
+  }
+  .text_diamond {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2rem;
+    max-width: 831px;
+  }
+  .btn_diamond {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 12.375rem;
+    height: 4rem;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-family: "PR", sans-serif;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    margin: 2.125rem 0 4.5rem;
+  }
+  .btn_diamond:hover {
+    background-color: #333333;
+    color: white;
+  }
+  .four_diamonds {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .diamonds2 {
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 767px;
+    max-height: 700px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+  }
+  .div_diamond_text {
+    width: 100%;
+  }
+  #title_diamonds {
+    font-size: 1.75rem;
+    font-weight: 400;
+    color: black;
+    max-width: 400px;
+    min-width: 350px;
+    line-height: 2rem;
+  }
+  .text_diamond {
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem;
+    color: black;
+    max-width: 600px;
+  }
+  .btn_diamond {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 12.375rem;
+    height: 4rem;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-family: "PR", sans-serif;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    margin: 2.125rem 0 1rem;
+  }
+  .btn_diamond:hover {
+    background-color: #333333;
+    color: white;
+  }
+  .dropdown-divider {
+    display: none;
+  }
+  .four_diamonds {
+    display: flex;
+    margin: 0;
+  }
+  .four_diamonds_picture {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
 .heart {
   margin-top: 84px;
   margin-bottom: 87px;
