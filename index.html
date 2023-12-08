@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-   <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-   <link rel="stylesheet" href="css/style.css" />
-   <title>Hatton Garden Jewellers</title>
-</head>
-
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Hatton Garden Jewellers</title>
+  </head>
+  <body>
    <header class="header">
       <div class="header-top">
          <div class="header-top__wrapper">
@@ -80,7 +82,80 @@
          </div>
       </div>
    </header>
-   <main class="main" id="main">
+    <main class="main">
+
+
+      <section class="shop_by" style="margin: 0 auto; max-width: 1440px; border: 1px solid black;">
+        <div class="shop_by_name">
+          <h1>Shop By Category</h1>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/pic/shop_by/shop_by1.jpg" class="card-img-top" alt="Girl">
+              <div class="card-body">
+                <p class="card-text" style="font-size: 1.2rem;">Earrings</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/pic/shop_by/shop_by2.jpg" class="card-img-top" alt="Heands" class="card h-100">
+              <div class="card-body">
+                <p class="card-text" style="font-size: 1.2rem;">Wedding Rings</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/pic/shop_by/shop_by3.png" class="card-img-top" alt="Engagement Rings">
+              <div class="card-body">
+                <p class="card-text" style="font-size: 1.2rem;">Engagement Rings</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="rings" style="margin: 0 auto; max-width: 1440px; display: flex;">
+        
+        <div class="rings_block_full">
+          <div class="container">
+            <h1>Engagement Rings</h1>
+            <p>Explore our stunning collections of engagement rings. Each is handcrafted to order with exquisite attention to detail in our Hatton Garden studio using only the finest, ethically sourced, GIA certified diamonds.</p>
+            <a class="btn border-light justify-content-center 
+            align-content-center m-4 fs-6" href="#" role="button">VIEW COLLECTIONS</a>
+          </div>
+        </div> 
+
+
+        <div class="rings_block">
+          <DIV class="container">
+            <DIV class="row">
+              <div class="col-4 rings_text_block">
+                <h1 class="display-4 m-4">Engagement Rings</h1>
+                <div>
+                  <p class="lead m-4 fs-5">Explore our stunning collections of engagement rings. Each is handcrafted to order with exquisite attention to detail in our Hatton Garden studio using only the finest, ethically sourced, GIA certified diamonds.</p>
+                </div>
+                <p class="lead m-0">
+                    <a class="btn btn-primary-outline btn-lg border-dark row d-flex justify-content-center 
+                  align-content-center m-4 fs-6" href="#" role="button" style="width: 198px; height: 64px;"
+                      id="btn_diamond">VIEW COLLECTIONS</a>
+                </p>
+              </div>
+              <div class="col-8">
+                <img src="./assets/pic/rings/img1.png" class="rings_img1 img-fluid">
+                <img src="./assets/pic/rings/img2.png" class="rings_img2 img-fluid">
+              </div>
+            </DIV>
+          </DIV>              
+        </div>
+      </section>
+
+
+
+
+
       <section class="why_choose"></section>
       <section class="quote"></section>
       <section class="as_seen"></section>
@@ -452,20 +527,19 @@
                   </div>
                   <a href="" class="btn primary" target="_blank">Learn more</a>
                </div>
-               <section class="learn"></section>
-               <section class="questions"></section>
-               <section class="questions">
-                  <div class="container">
-                     <div class="p-3 my-3 text-center">
-                        <div class="heading2">Frequently Asked Questions</div>
-                        <p class="mt-1 text-center">
-                           These are the most frequently asked questions.
-                           If you have any questions, please contact us.</p>
-                     </div>
-                  </div>
-<!-- d -->
-                  <!------------------------------------ACCORDION------------------------------------------->
-                  <!--------------------------------------------------------------------------------------- -->
+      </section>
+      <section class="questions">
+         <div class="container">
+            <div class="p-3 my-3 text-center">
+               <div class="heading2">Frequently Asked Questions</div>
+               <p class="mt-1 text-center">
+                  These are the most frequently asked questions.
+                  If you have any questions, please contact us.</p>
+            </div>
+         </div>
+
+         <!------------------------------------ACCORDION------------------------------------------->
+         <!----------------------------------------------------------------------------------------->
 
                   <div class="accordion col-md-9 col-lg-9 mx-auto" id="myAccordion">
          <div class="accordion-item">
@@ -519,30 +593,31 @@
 
 
       </section>
-      <section class="what_new">
+      <section class="what_new d-flex justify-content-center">
          <div class="container">
             <div class="what_new__background text-center">
                <div class="what_new__text-title">What's New</div>
+               
             </div>
             <div class="what_new__img">
-               <div class="row row-cols-3">
-                  <div class="col-lg-4 col-md-6">
-                     <img src="./assets/pic/what_new/what-new_pic1.png" class="img-fluid" alt="">
-                     <div class="what_new__title">A guide to buying your first diamond — the 4Cs</div>
+               <div class="row row-cols-lg-3 row-cols-md-2 row-cols-xs-1">
+                  <div class="col-lg-4">
+                     <img src="./assets/pic/what_new/what-new_pic1.png" class="what_new__pic img-fluid" alt="Hatton Garden Jewellers. Jewelry">
+                     <div class="what_new__title">A Guide To Buying Your First Diamond — The 4Cs</div>
                      <div class="what_new__text">The setting of your ring is one of the most important considerations when shopping for this jewel that will represent the love you share for many years to come.</div>
-                     <a href="/" class="what_new__button btn primary">Learn More</a>
+                     <a href="/" class="what_new__button">Learn More</a>
                   </div>
-                  <div class="col-lg-4 col-md-6">
-                     <img src="./assets/pic/what_new/what-new_pic2.png" class="img-fluid" alt="">
-                     <div class="what_new__title">The most popular diamond shapes for an engagement ring</div>
+                  <div class="col-lg-4">
+                     <img src="./assets/pic/what_new/what-new_pic2.png" class="what_new__pic img-fluid" alt="Hatton Garden Jewellers. Jewelry">
+                     <div class="what_new__title">The Most Popular Diamond Shapes For An Engagement Ring</div>
                      <div class="what_new__text">The 4Cs are the definitive, globally recognised standard for grading diamonds according to four criteria. If you are buying a diamond, particularly.</div>
-                     <a href="/" class="what_new__button btn primary">Learn More</a>
+                     <a href="/" class="what_new__button">Learn More</a>
                   </div>
-                  <div class="col-lg-4 col-md-6">
-                     <img src="./assets/pic/what_new/what-new_pic3.png" class="img-fluid" alt="">
-                     <div class="what_new__title">A guide to the different engagement ring settings</div>
+                  <div class="col-lg-4">
+                     <img src="./assets/pic/what_new/what-new_pic3.png" class="what_new__pic img-fluid" alt="Hatton Garden Jewellers. Jewelry">
+                     <div class="what_new__title">A Guide To The Different Engagement Ring Settings</div>
                      <div class="what_new__text">The setting of your ring is one of the most important considerations when shopping for this jewel that will represent the love you share for many years to come.</div>
-                     <a href="/" class="what_new__button btn primary">Learn More</a>
+                     <a href="/" class="what_new__button">Learn More</a>
                   </div>
                </div>
             </div>
@@ -551,29 +626,29 @@
          
       </section>
       <section class="instagram">
-         <div class="instagram__title text-center p-4 my-4">
-            Join us on Instagram
-         </div>
          <div class="container">
+            <div class="instagram__title text-center">
+               Join us on Instagram
+            </div>
             <div class="instagram__gallery">
-               <div class="row row-cols-3">
-                  <div class="col ">
-                     <img src="./assets/pic/instagram/instagram_pic1.png" class="img-fluid" alt="">
+               <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-3 row-cols-3">
+                  <div class="col col-xs-12 col-sm-">
+                     <img src="./assets/pic/instagram/instagram_pic1.png" class="instagram__pic img-fluid" alt="Hatton Garden Jewellers. Women">
                   </div>
                   <div class="col mb-4">
-                     <img src="./assets/pic/instagram/instagram_pic2.png" class="img-fluid" alt="">
+                     <img src="./assets/pic/instagram/instagram_pic2.png" class="instagram__pic img-fluid" alt="Hatton Garden Jewellers. Jewelry">
                   </div>
                   <div class="col ">
-                     <img src="./assets/pic/instagram/instagram_pic3.png" class="img-fluid" alt="">
+                     <img src="./assets/pic/instagram/instagram_pic3.png" class="instagram__pic img-fluid" alt="Hatton Garden Jewellers. Women">
                   </div>
-                  <div class="col">
-                     <img src="./assets/pic/instagram/instagram_pic4.png" class="img-fluid" alt="">
+                  <div class="col col-xs-12 ">
+                     <img src="./assets/pic/instagram/instagram_pic4.png" class="instagram__pic img-fluid" alt="Hatton Garden Jewellers. Jewelry">
                   </div>
-                  <div class="col">
-                     <img src="./assets/pic/instagram/instagram_pic5.png" class="img-fluid" alt="">
+                  <div class="col col-xs-12 ">
+                     <img src="./assets/pic/instagram/instagram_pic5.png" class="instagram__pic img-fluid" alt="Hatton Garden Jewellers. Women">
                   </div>
-                  <div class="col">
-                     <img src="./assets/pic/instagram/instagram_pic6.png" class="img-fluid" alt="">
+                  <div class="col col-xs-12 ">
+                     <img src="./assets/pic/instagram/instagram_pic6.png" class="instagram__pic img-fluid" alt="Hatton Garden Jewellers. Jewelry">
                   </div>
                </div>
             </div>
@@ -582,20 +657,20 @@
    </main>
    <footer class="footer">
       <div class="container">
-         <div class="row row-cols-5">
-            <div class="col">
+         <div class="row row-cols-lg-5 row-cols-md-4 row-cols-sm-2 row-cols-1">
+            <div class="col col-12 col-sm-6">
                <div class="footer__contact">
                   <div class="footer__title">BUDREVICH FINE JEWELLERY STUDIO</div>
                   <div class="footer__text">
                      14 Arundel House, 43 Kirby Street, 
                      Hatton Garden, London, EC1N 8TE
-                     United Kingdom <br><br>a
+                     United Kingdom <br><br>
                   
                      info@budrevich.co.uk <br>
                      Ph.: +44 020 7430 1138</div>
                   </div>
             </div>
-            <div class="col">
+            <div class="col col-12 col-sm-6" id="footer__block-opening">
                <div class="footer__opening">
                   <div class="footer__title">OPENING HOURS</div>
                   <div class="footer__text">Mon–Fri 10:00 to 19:00 <br>
@@ -603,7 +678,7 @@
                      Sun by appointment</div>
                </div>
             </div>
-            <div class="col">
+            <div class="col col-12 col-sm-6">
                <div class="footer__subscribe">
                   <div class="footer__title">DON'T MISS A THING</div>
                   <div class="footer__text">Subscribe to our newsletter
@@ -613,7 +688,7 @@
                   
                </div>
             </div>
-            <div class="col">
+            <div class="col col-12 col-sm-6">
                <div class="footer__company">
                   <div class="footer__title">COMPANY</div>
                   <div class="footer__text">
@@ -627,10 +702,10 @@
                   </div>
                   </div>
                </div>
-               <div class="col">
+               <div class="col col-12 col-sm-12" id="footer__back-to-top">
                   <div class="footer__back-to-top">
                      <div class="footer__title">BACK TO TOP</div>
-                     <a class="footer__back-to-top__icon" href="#main"><img src="./assets/pic/footer/Vector.png" alt=""></a>
+                     <a class="footer__back-to-top__icon" href="#main"><img src="./assets/pic/footer/Vector.png" alt="Hatton Garden Jewellers. Arrow-up"></a>
                   </div>
                </div>
             </div>
