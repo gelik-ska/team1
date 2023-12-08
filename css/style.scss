@@ -27,26 +27,26 @@ body {
 
 /* -----------------------------------AS_SEEN------------------------------------- */
 
-/* -----------------------------------WEDDING_RINGS------------------------------- */
-@media (min-width: 1440px){
-  .wedding_rings{
-    display:flex;
+// -----------------------------------WEDDING_RINGS------------------------------- //
+@media (min-width: 1440px) {
+  .wedding_rings {
+    display: flex;
     margin: 0 auto;
     max-height: 41rem;
   }
-  #div_1{
+  #div_1 {
     display: flex;
     flex-direction: column;
     max-width: 50%;
   }
-  #jumbotron{
+  #jumbotron {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
     margin: 3%;
   }
-  #view{
+  #view {
     display: none;
   }
   #title_rings {
@@ -56,155 +56,154 @@ body {
     max-width: 200px;
     line-height: 64px;
   }
-  #text_rings{
+  #text_rings {
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 1.5rem;
     max-width: 424px;
   }
-  #rings_content{
+  #rings_content {
     position: relative;
     max-width: 763px;
   }
-  
-  #rings_circle{
+
+  #rings_circle {
     position: absolute;
     top: 40%;
     left: -20%;
   }
-  .dropdown-divider{
-    display: flex; 
-    height: 1px; 
+  .dropdown-divider {
+    display: flex;
+    height: 1px;
     border: 0;
-    border-top: 1px solid black; 
-    padding: 0; 
-    margin: 0 auto; 
+    border-top: 1px solid black;
+    padding: 0;
+    margin: 0 auto;
     max-width: 1440px;
   }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+  .wedding_rings {
+    display: flex;
+    margin: 0 auto;
+    max-height: 44rem;
   }
-  
-  @media (min-width: 1280px) and (max-width: 1439px) {
-    .wedding_rings{
-      display:flex;
-      margin: 0 auto;
-      max-height: 44rem;
-    }
-    #div_1{
-      display: flex;
-      flex-direction: column;
-    }
-    #jumbotron{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: nowrap;
-      margin: 3%;
-    }
-    #title_rings {
-      font-size: 60px;
-      font-weight: 400;
-      color: #111111;
-      max-width: 200px;
-      line-height: 64px;
-    }
-    #text_rings{
-      font-size: 1.25rem;
-      font-weight: 400;
-      line-height: 1.5rem;
-      max-width: 424px;
-    }
-    #rings_content{
-      position: relative;
-      max-width: 763px;
-    }
-    
-    #rings_circle {
-      position: absolute;
-      top: 60%;
-      left: -15%;
-      width: 25%;
-    }
-  
-    #add_card{
-      display: none;
-    }
-    .dropdown-divider{
-      display: flex; 
-      height: 1px; 
-      border: 0;
-      border-top: 1px solid black; 
-      padding: 0; 
-      margin: 0 auto; 
-      max-width: 1440px;
-    }
+  #div_1 {
+    display: flex;
+    flex-direction: column;
   }
-  
-  @media (min-width: 768px) and (max-width: 1279px) {
-  
-    .wedding_rings{
-      display:flex;
-      margin: 0 auto;
-      justify-content: center;
-    }
-  
-    #jumbotron{
-      display: flex;
-      background-image: url(../assets/pic/wedding_rings/Wedding_Rings_768.png);
-      background-size: cover;
-      background-repeat: no-repeat;
-      margin: 0 auto;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: nowrap
-    }
-    #div_1{
-      margin: 3%;
-    }
-    #title_rings {
-      font-size: 1.75rem;
-      font-weight: 400;
-      color: white;
-      max-width: 500px;
-      min-width: 450px;
-      line-height: 64px;
-      text-align: center;
-      margin: 0 auto;
-    }
-    #text_rings{
-      font-size: 0.875rem;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 1rem; 
-      color: white;
-      text-align: center;
-      margin: 2%;
-      max-width: 528px;
-      min-width: 500px;
-    }
-    #rings_content{
-      display: none;
-    }
-    .btn_diamond{
-      margin: 0 auto;
-    }
-  
-    #add_card{
-      display: none;
-    }
-    #lead{
-      display: flex;
-      justify-content: center;
-    }
-    .dropdown-divider{
-      display: flex; 
-      height: 1px; 
-      border: 0;
-      border-top: 1px solid black; 
-      padding: 0; 
-      margin: 0 auto; 
-      max-width: 1279px;
-    }
-  #view{
+  #jumbotron {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 3%;
+  }
+  #title_rings {
+    font-size: 60px;
+    font-weight: 400;
+    color: #111111;
+    max-width: 200px;
+    line-height: 64px;
+  }
+  #text_rings {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    max-width: 424px;
+  }
+  #rings_content {
+    position: relative;
+    max-width: 763px;
+  }
+
+  #rings_circle {
+    position: absolute;
+    top: 60%;
+    left: -15%;
+    width: 25%;
+  }
+
+  #add_card {
+    display: none;
+  }
+  .dropdown-divider {
+    display: flex;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .wedding_rings {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  #jumbotron {
+    display: flex;
+    background-image: url(../assets/pic/wedding_rings/Wedding_Rings_768.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  #div_1 {
+    margin: 3%;
+  }
+  #title_rings {
+    font-size: 1.75rem;
+    font-weight: 400;
+    color: white;
+    max-width: 500px;
+    min-width: 450px;
+    line-height: 64px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  #text_rings {
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem;
+    color: white;
+    text-align: center;
+    margin: 2%;
+    max-width: 528px;
+    min-width: 500px;
+  }
+  #rings_content {
+    display: none;
+  }
+  .btn_diamond {
+    margin: 0 auto;
+  }
+
+  #add_card {
+    display: none;
+  }
+  #lead {
+    display: flex;
+    justify-content: center;
+  }
+  .dropdown-divider {
+    display: flex;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1279px;
+  }
+  #view {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -217,80 +216,79 @@ body {
     font-family: "PR", sans-serif;
     text-transform: uppercase;
     transition: background-color 0.3s ease, color 0.3s ease,
-    border-color 0.3s ease;
+      border-color 0.3s ease;
   }
   #view:hover {
     background-color: white;
     color: black;
   }
+}
+
+@media (max-width: 767px) {
+  .wedding_rings {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    min-width: 320px;
   }
-  
-  @media (max-width: 767px) {
-  
-    .wedding_rings{
-      display:flex;
-      margin: 0 auto;
-      justify-content: center;
-      min-width: 320px;
-    }
-  
-    #jumbotron{
-      display: flex;
-      background-image: url(../assets/pic/wedding_rings/Wedding_Rings_320.png);
-      background-size: cover;
-      background-repeat: no-repeat;
-      margin: 0 auto;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: nowrap
-    }
-    #div_1{
-      margin: 5%;
-    }
-    #title_rings {
-      font-size: 1.75rem;
-      font-weight: 400;
-      color: white;
-      max-width: 400px;
-      min-width: 350px;
-      line-height: 2rem;
-      text-align: center;
-      margin: 0 auto;
-    }
-    #text_rings{
-      font-size: 0.875rem;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 1rem; 
-      color: white;
-      text-align: center;
-      margin: 0 auto;
-      max-width: 264px;
-    }
-    #rings_content{
-      display: none;
-    }
-    .btn_diamond{
-      margin: 0 auto;
-    }
-  
-    #add_card{
-      display: none;
-    }
-    #lead{
-      display: flex;
-      justify-content: center;
-    }
-    .dropdown-divider{
-      display: flex; 
-      height: 1px; 
-      border: 0;
-      border-top: 1px solid black; 
-      padding: 0; 
-      margin: 0 auto; 
-      max-width: 1279px;
-    }
-  #view{
+
+  #jumbotron {
+    display: flex;
+    background-image: url(../assets/pic/wedding_rings/Wedding_Rings_320.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  #div_1 {
+    margin: 5%;
+  }
+  #title_rings {
+    font-size: 1.75rem;
+    font-weight: 400;
+    color: white;
+    max-width: 400px;
+    min-width: 350px;
+    line-height: 2rem;
+    text-align: center;
+    margin: 0 auto;
+  }
+  #text_rings {
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 264px;
+  }
+  #rings_content {
+    display: none;
+  }
+  .btn_diamond {
+    margin: 0 auto;
+  }
+
+  #add_card {
+    display: none;
+  }
+  #lead {
+    display: flex;
+    justify-content: center;
+  }
+  .dropdown-divider {
+    display: flex;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1279px;
+  }
+  #view {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -304,32 +302,31 @@ body {
     font-family: "PR", sans-serif;
     text-transform: uppercase;
     transition: background-color 0.3s ease, color 0.3s ease,
-    border-color 0.3s ease;
-  
+      border-color 0.3s ease;
   }
   #view:hover {
     background-color: white;
-    color: black;}
-  
+    color: black;
   }
-/* -----------------------------------DIAMONDS------------------------------------ */
-@media (min-width: 1440px){
-  .diamonds2{
-  background-image: url(../assets/pic/diamonds/Guide_To_Diamonds.png);
-  display: flex;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 0 auto;
-  max-width: 90rem;
-  max-height: 496px;
-  justify-content: space-between;
-  align-items: center;
+}
+// -----------------------------------DIAMONDS------------------------------------ //
+@media (min-width: 1440px) {
+  .diamonds2 {
+    background-image: url(../assets/pic/diamonds/Guide_To_Diamonds.png);
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    max-width: 90rem;
+    max-height: 496px;
+    justify-content: space-between;
+    align-items: center;
   }
-  .div_diamond_text{
+  .div_diamond_text {
     max-width: 537px;
     margin: 3%;
   }
-  #title_diamonds{
+  #title_diamonds {
     font-size: 60px;
     font-weight: 400;
     color: #111111;
@@ -337,13 +334,13 @@ body {
     line-height: 64px;
     margin-top: 5%;
   }
-  .text_diamond{
+  .text_diamond {
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 1.5rem;
     max-width: 537px;
   }
-  .btn_diamond{
+  .btn_diamond {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -357,198 +354,196 @@ body {
     font-family: "PR", sans-serif;
     text-transform: uppercase;
     transition: background-color 0.3s ease, color 0.3s ease,
-    border-color 0.3s ease;
+      border-color 0.3s ease;
     margin-top: 1rem;
   }
   .btn_diamond:hover {
     background-color: #333333;
     color: white;
   }
-  .four_diamonds{
+  .four_diamonds {
     display: none;
   }
-  }
-  
-  @media (min-width: 1280px) and (max-width: 1439px){
-    .diamonds2{
-      background-image: url('../assets/pic/diamonds/Guide_To_Diamonds_1280.png');
-      display: flex;
-      background-size: cover;
-      background-repeat: no-repeat;
-      margin: 0 auto;
-      max-width: 89.9rem;
-      max-height: 640px;
-      justify-content: space-between;
-      align-items: center;
-      }
-      .div_diamond_text{
-        max-width: 840px;
-        margin: 5%;
-      }
-      
-      #title_diamonds{
-        font-size: 3.75rem;
-        font-weight: 400;
-        color: #111111;
-        max-width: 578px;
-        line-height: 4rem;
-      }
-      .text_diamond{
-        font-size: 1.25rem;
-        font-weight: 400;
-        line-height: 2rem;
-        max-width: 831px;
-      }
-      .btn_diamond{
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        width: 12.375rem;
-        height: 4rem;
-        color: black;
-        border: 1px solid black;
-        border-radius: 5px;
-        text-decoration: none;
-        font-size: 0.875rem;
-        font-family: "PR", sans-serif;
-        text-transform: uppercase;
-        transition: background-color 0.3s ease, color 0.3s ease,
-        border-color 0.3s ease;
-        margin: 2.125rem 0 4.5rem;
-      }
-      .btn_diamond:hover {
-        background-color: #333333;
-        color: white;}
-  
-      .four_diamonds{
-        display: none;
-      }
-  }
-  
-  @media (min-width: 768px) and (max-width: 1279px) {
-  
-    .diamonds2{
-      background-image: url('../assets/pic/diamonds/Guide_To_Diamonds_1280.png');
-      display: flex;
-      background-size: cover;
-      background-repeat: no-repeat;
-      margin: 0 auto;
-      max-width: 80rem;
-      max-height: 640px;
-      justify-content: space-between;
-      align-items: center;
-      }
-      .div_diamond_text{
-        max-width: 840px;
-        margin: 5%;
-      }
-      
-      #title_diamonds{
-        font-size: 1.75rem;
-        font-weight: 400;
-        color: #111111;
-        max-width: 578px;
-        line-height: 2rem;
-      }
-      .text_diamond{
-        font-size: 1.25rem;
-        font-weight: 400;
-        line-height: 2rem;
-        max-width: 831px;
-      }
-      .btn_diamond{
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        width: 12.375rem;
-        height: 4rem;
-        color: black;
-        border: 1px solid black;
-        border-radius: 5px;
-        text-decoration: none;
-        font-size: 0.875rem;
-        font-family: "PR", sans-serif;
-        text-transform: uppercase;
-        transition: background-color 0.3s ease, color 0.3s ease,
-        border-color 0.3s ease;
-        margin: 2.125rem 0 4.5rem;
-      }
-      .btn_diamond:hover {
-        background-color: #333333;
-        color: white;} 
-      
-      .four_diamonds{
-        display: none;
-      }
-  }
-  @media (max-width: 767px) {
-    .diamonds2{
-      display: flex;
-      background-size: cover;
-      background-repeat: no-repeat;
-      max-width: 767px;
-      max-height: 700px;
-      justify-content: space-between;
-      align-items: center;
-      margin: 5%;
-      }
-      .div_diamond_text{
-      width: 100%;
-      }
-      
-      #title_diamonds{
-        font-size: 1.75rem;
-        font-weight: 400;
-        color: black;
-        max-width: 400px;
-        min-width: 350px;
-        line-height: 2rem;
-      }
-      .text_diamond{
-        font-size: 0.875rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 1rem; 
-        color: black;
-        max-width:600px;
-      }
-      .btn_diamond{
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        width: 12.375rem;
-        height: 4rem;
-        color: black;
-        border: 1px solid black;
-        border-radius: 5px;
-        text-decoration: none;
-        font-size: 0.875rem;
-        font-family: "PR", sans-serif;
-        text-transform: uppercase;
-        transition: background-color 0.3s ease, color 0.3s ease,
-        border-color 0.3s ease;
-        margin: 2.125rem 0 1rem;
-      }
-      .btn_diamond:hover {
-        background-color: #333333;
-        color: white;}  
-  
-  
-      .dropdown-divider{
-        display: none;
-      }
-      .four_diamonds{
-        display: flex;
-        margin: 0;
-      }
-      .four_diamonds_picture{
-        width: 100%;
-        margin: 0 auto;
-      }
-  
-  }
-  
+}
 
+@media (min-width: 1280px) and (max-width: 1439px) {
+  .diamonds2 {
+    background-image: url("../assets/pic/diamonds/Guide_To_Diamonds_1280.png");
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    max-width: 89.9rem;
+    max-height: 640px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .div_diamond_text {
+    max-width: 840px;
+    margin: 5%;
+  }
+
+  #title_diamonds {
+    font-size: 3.75rem;
+    font-weight: 400;
+    color: #111111;
+    max-width: 578px;
+    line-height: 4rem;
+  }
+  .text_diamond {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2rem;
+    max-width: 831px;
+  }
+  .btn_diamond {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 12.375rem;
+    height: 4rem;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-family: "PR", sans-serif;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, color 0.3s ease,
+      border-color 0.3s ease;
+    margin: 2.125rem 0 4.5rem;
+  }
+  .btn_diamond:hover {
+    background-color: #333333;
+    color: white;
+  }
+
+  .four_diamonds {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .diamonds2 {
+    background-image: url("../assets/pic/diamonds/Guide_To_Diamonds_1280.png");
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    max-width: 80rem;
+    max-height: 640px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .div_diamond_text {
+    max-width: 840px;
+    margin: 5%;
+  }
+
+  #title_diamonds {
+    font-size: 1.75rem;
+    font-weight: 400;
+    color: #111111;
+    max-width: 578px;
+    line-height: 2rem;
+  }
+  .text_diamond {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2rem;
+    max-width: 831px;
+  }
+  .btn_diamond {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 12.375rem;
+    height: 4rem;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-family: "PR", sans-serif;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, color 0.3s ease,
+      border-color 0.3s ease;
+    margin: 2.125rem 0 4.5rem;
+  }
+  .btn_diamond:hover {
+    background-color: #333333;
+    color: white;
+  }
+
+  .four_diamonds {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .diamonds2 {
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 767px;
+    max-height: 700px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+  }
+  .div_diamond_text {
+    width: 100%;
+  }
+
+  #title_diamonds {
+    font-size: 1.75rem;
+    font-weight: 400;
+    color: black;
+    max-width: 400px;
+    min-width: 350px;
+    line-height: 2rem;
+  }
+  .text_diamond {
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem;
+    color: black;
+    max-width: 600px;
+  }
+  .btn_diamond {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 12.375rem;
+    height: 4rem;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-family: "PR", sans-serif;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, color 0.3s ease,
+      border-color 0.3s ease;
+    margin: 2.125rem 0 1rem;
+  }
+  .btn_diamond:hover {
+    background-color: #333333;
+    color: white;
+  }
+
+  .dropdown-divider {
+    display: none;
+  }
+  .four_diamonds {
+    display: flex;
+    margin: 0;
+  }
+  .four_diamonds_picture {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
 
 /* -----------------------------------HEART--------------------------------------- */
 .heart {
@@ -556,29 +551,29 @@ body {
   margin-bottom: 5.5rem;
 }
 
-  .heart768 {
-    display: none;
-  }
-  
-  .heart-tiitle {
-    font-size: 6.5rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 6rem;
-    margin: 0;
-  }
-  
-  .heart-text {
-    font-size: 1.375rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 2rem;
-  }
-  
-  .heart-img {
-    margin-top: 6rem;
-    margin-bottom: 7.25rem;
-  }
+.heart768 {
+  display: none;
+}
+
+.heart-tiitle {
+  font-size: 6.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 6rem;
+  margin: 0;
+}
+
+.heart-text {
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.heart-img {
+  margin-top: 6rem;
+  margin-bottom: 7.25rem;
+}
 
 @media (min-width: 1280px) and (max-width: 1439px) {
   .heart-tiitle {
@@ -613,8 +608,8 @@ body {
     margin: 0 0 2.5rem;
   }
   .heart-img__768 {
-    object-fit: cover; 
-    height: 256px; 
+    object-fit: cover;
+    height: 256px;
     width: 100%;
   }
 }
@@ -641,8 +636,8 @@ body {
     margin: 0 0 2.5rem;
   }
   .heart-img__768 {
-    object-fit: cover; 
-    height: 256px; 
+    object-fit: cover;
+    height: 256px;
     width: 100%;
   }
   .heart-img__320 {
@@ -717,7 +712,7 @@ body {
   line-height: normal;
   letter-spacing: 0.28px;
   transition: background-color 0.3s ease, color 0.3s ease,
-  border-color 0.3s ease;
+    border-color 0.3s ease;
   margin: 2.125rem 0 4.5rem;
 }
 .invitation-btn:hover {
@@ -881,14 +876,13 @@ body {
   .card {
     margin: 0 auto;
   }
-  
+
   .card-text {
     font-size: 0.875rem;
     line-height: 1rem;
     text-transform: capitalize;
   }
 }
-  
 
 /* -----------------------------------STARS--------------------------------------- */
 
@@ -1056,11 +1050,11 @@ body {
 .what_new {
   background-image: url(../assets/pic/what_new/Gradient.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: contain;
   padding: 3.75rem 0 0 0;
   font-family: "PR", sans-serif;
   &__text-title {
-    font-size: 40px;
+    font-size: 2.5rem;
     color: white;
     padding-bottom: 2.75rem;
   }
@@ -1077,6 +1071,7 @@ body {
     line-height: 2rem;
     color: $black;
     margin-bottom: 1.56rem;
+    text-transform: capitalize;
   }
   &__text {
     font-size: 1.125rem;
@@ -1086,18 +1081,92 @@ body {
     margin-bottom: 3rem;
   }
   &__button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 12.375rem;
+    height: 4rem;
+    background-color: #ffffff;
+    color: $black;
+    border: 1px solid $black;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "PR", sans-serif;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, color 0.3s ease,
+      border-color 0.3s ease;
     margin-bottom: 5.5rem;
+  }
+  &__button:hover {
+    background-color: #333333;
+    color: white;
+    border-color: #ffffff;
+  }
+}
+/*-----------------1280-VERSION-WHAT_NEW----------------------*/
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+  .what_new {
+    &__title {
+      width: 23.1875rem;
+      height: 6rem;
+    }
+    &__text {
+      width: 23.1875rem;
+      height: 7rem;
+    }
+  }
+}
+/*-----------------768-VERSION-WHAT_NEW----------------------*/
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .what_new {
+    background-size: 100%;
+    &__text-title {
+      padding-bottom: 1rem;
+    }
+  }
+}
+/*-----------------320-VERSION-WHAT_NEW----------------------*/
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .what_new {
+    background-size: 100%;
+    &__text-title {
+      padding-top: 0;
+      padding-bottom: 1rem;
+    }
   }
 }
 /* -----------------------------------INSTAGRAM----------------------------------- */
 .instagram {
-  background-color: $gray;
+  padding: 3.75rem 0 4rem 0;
+  background-image: url(../assets/pic/instagram/bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  &__title {
+    padding: 0 0 3.75rem 0;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
 }
-/* -----------------------------------FOOTER-------------------------------------- */
+/*-----------------768-VERSION-INSTAGRAM----------------------*/
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .instagram {
+    background-size: cover;
+  }
+}
+/*-----------------320-VERSION-INSTAGRAM----------------------*/
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .instagram {
+    background-size: cover;
+  }
+}
+// -----------------------------------FOOTER-------------------------------------- //
 
 .footer {
+  padding: 3.25rem 0 0 0;
   height: 19rem;
-  padding: 3.25rem 0 4.75rem 0;
   background-image: url(../assets/pic/footer/Gradient.png);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -1115,7 +1184,6 @@ body {
     font-weight: 400;
     line-height: 16px;
     color: $gray;
-    max-width: 311px;
     height: 8.75rem;
   }
   &__email {
@@ -1143,7 +1211,7 @@ body {
     background-color: #2c313d;
   }
   &__company {
-    margin-left: 7rem;
+    margin-left: 5rem;
     &-link {
       text-decoration: none;
       color: #f2f2f2;
@@ -1161,9 +1229,83 @@ body {
     list-style-type: none;
   }
   &__back-to-top {
-    padding-left: 9rem;
+    padding-left: 7rem;
     &__icon {
       margin-left: 4rem;
+    }
+  }
+}
+/*-----------------1280-VERSION-INSTAGRAM----------------------*/
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+  .footer {
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 998px) and (max-width: 1278px) {
+  #footer__back-to-top {
+    order: 5;
+  }
+}
+/*-----------------768-VERSION-INSTAGRAM----------------------*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .footer {
+    height: 428px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .footer {
+    background-size: cover;
+    &__title {
+      margin-bottom: 1rem;
+    }
+    &__email {
+      width: 11.5rem;
+    }
+    &__button-subscribe {
+      width: 11.5rem;
+    }
+    &__back-to-top {
+      padding-left: 2rem;
+    }
+  }
+  #footer__block-opening {
+    order: 5;
+  }
+}
+/*-----------------320-VERSION-INSTAGRAM----------------------*/
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .footer {
+    height: 47.5rem;
+    background-size: cover;
+    &__title {
+      margin-bottom: 1.6rem;
+      font-size: 1.3rem;
+    }
+    &__text {
+      width: 19rem;
+      height: 6.25rem;
+      font-size: 1rem;
+    }
+    &__company {
+      margin: 6rem 0 0 0;
+    }
+    &__opening {
+      margin: 0;
+      padding: 0;
+    }
+    &__email {
+      width: 16.5rem;
+    }
+    &__button-subscribe {
+      width: 16.5rem;
+    }
+    &__back-to-top {
+      padding: 0;
+      &__icon {
+        margin: 0;
+        padding: 0;
+      }
     }
   }
 }
