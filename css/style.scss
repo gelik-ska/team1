@@ -216,6 +216,151 @@ body {
   }
 }
 /* -----------------------------------MAIN---------------------------------------- */
+/* ---------------------------------SHOP_BY--------------------------------------- */
+.shop_by {
+  padding: 3%;
+}
+
+.shop_by_name {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.rings_block {
+  margin: 2% 1%;
+}
+
+.rings_img2 {
+  display:flex;
+  justify-content: center;
+  position: absolute;
+  margin-left: auto;
+  margin-right: 50%;
+  margin-top: -18%;
+  left: 0;
+  right: 0;
+  align-items: center;
+}
+
+.rings_img1 {
+  margin-left: 14%;
+  margin-top: 4%;
+}
+
+.rings_text_block {
+  margin-top: 2%;
+}
+
+.rings_block_full {
+  display: none;
+} 
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .rings_img2 {
+    display: none;
+  }
+
+  .rings_block {
+    display: none;
+  }
+  .rings_block_full {
+    height: 500px;
+    text-align: center;
+    color: white;
+    display: block;
+    background-image: url(/assets/pic/rings/img3.png);
+    background-size: 100%;
+    padding: 50px;
+    background-repeat: no-repeat;
+    font-size: 1rem;
+    
+  }
+  
+  .rings_block_full h1 {
+    margin-bottom: 30px;
+  }
+
+  .rings_block_full a {
+    color: white;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px; 
+  }
+  
+}
+
+@media (min-width: 500px) and (max-width: 767px) {
+  .rings_img2 {
+    display: none;
+  }
+
+  .rings_block {
+    display: none;
+  }
+  .rings_block_full {
+    height: 300px;
+    text-align: center;
+    color: white;
+    display: block;
+    background-image: url(/assets/pic/rings/img1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 30px;
+    font-size: 1rem;
+    
+  }
+  .rings_block_full_title {
+    margin-bottom: 30px;
+  }
+
+  .rings_block_full a {
+    color: white;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px; 
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 499px) {
+  .rings_img2 {
+    display: none;
+  }
+
+  .rings_block {
+    display: none;
+  }
+  .rings_block_full {
+    height: 500px;
+    text-align: center;
+    color: white;
+    display: block;
+    background-image: url(/assets/pic/rings/img1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 10px;
+    font-size: 0.7rem;
+    
+  }
+  .rings_block_full_title {
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+
+  .rings_block_full a {
+    color: white;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    margin-top: 0;
+  }
+}
 
 /* -----------------------------------WHY_CHOOSE---------------------------------- */
 
@@ -226,7 +371,6 @@ body {
 // -----------------------------------WEDDING_RINGS------------------------------- //
 @media (min-width: 1440px) {
   .wedding_rings {
-    display: flex;
     margin: 0 auto;
     max-height: 41rem;
   }
