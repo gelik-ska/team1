@@ -15,17 +15,14 @@ $background-color1:
 ;
 
 #why_choose_us {
-    box-sizing: border-box;
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr;
-    grid-template-rows: 100vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1440vw;
     grid-template-areas: "rsn1 rsn2 col-4 col-4";
-    background-color: $background-color1;
+    padding-left: 40em;
+    background-color: grey;
     width: 100%;
-}
-
-#wcu {
-    padding-left: 200vw;
+    gap: 1rem;
 }
 
 #why_choose_rsn1 {
@@ -53,6 +50,30 @@ font-weight: 400;
 line-height: 142.857%;
 letter-spacing: 0.28px;
 text-transform: uppercase;
+}
+
+#Susan_couple {
+    z-index: -2;
+    height: 50vh;
+    margin-top: 10em;
+    display: block;
+    position: relative;
+}
+
+#the_diamond_ring_Susan {
+    position: relative;
+    display: block;
+    top: 100rem;
+}
+
+#as_seen_grid_container {
+    width: 100vw;
+    border: none;
+}
+
+#as_seen_lg1, #as_seen_lg2, #as_seen_lg3, #as_seen_lg4, #as_seen_lg5, #as_seen_lg6 {
+    width: 1rem;
+    height: 1rem;
 }
 
 
