@@ -933,6 +933,16 @@ body {
   border-top: 1px solid #111111;
 }
 
+.shop_by {
+  padding: 3%;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.5)
+}
+
+.shop_by_name {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
 /*-----------------ACCORDION----------------------*/
 .accordion-item {
   /* Стили для всего элемента аккордеона */
