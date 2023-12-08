@@ -51,6 +51,12 @@ body {
   margin: 0 auto;
 }
 
+/* -----------------------------------HEADER-------------------------------------- */
+/* -----------------------------------MAIN---------------------------------------- */
+/* -----------------------------------WHY_CHOOSE---------------------------------- */
+/* -----------------------------------QUOTE--------------------------------------- */
+/* -----------------------------------AS_SEEN------------------------------------- */
+/* -----------------------------------WEDDING_RINGS------------------------------- */
 @media (min-width: 1440px) {
   .wedding_rings {
     display: flex;
@@ -320,6 +326,7 @@ body {
     color: black;
   }
 }
+/* -----------------------------------DIAMONDS------------------------------------ */
 @media (min-width: 1440px) {
   .diamonds2 {
     background-image: url(../assets/pic/diamonds/Guide_To_Diamonds.png);
@@ -542,9 +549,10 @@ body {
     margin: 0 auto;
   }
 }
+/* -----------------------------------HEART--------------------------------------- */
 .heart {
-  margin-top: 84px;
-  margin-bottom: 87px;
+  margin-top: 5.25rem;
+  margin-bottom: 5.5rem;
 }
 
 .heart768 {
@@ -567,8 +575,8 @@ body {
 }
 
 .heart-img {
-  margin-top: 96px;
-  margin-bottom: 116px;
+  margin-top: 6rem;
+  margin-bottom: 7.25rem;
 }
 
 @media (min-width: 1280px) and (max-width: 1439px) {
@@ -576,12 +584,13 @@ body {
     font-size: 5rem;
     line-height: 5rem;
   }
+  .heart-img {
+    margin-bottom: 6.25rem;
+  }
 }
 @media (min-width: 768px) and (max-width: 1279px) {
   .heart {
-    margin-top: 3rem;
-    margin-bottom: 4rem;
-    margin: 3rem 3.5rem 4rem;
+    margin: 3rem 0 4rem;
   }
   .heart1440 {
     display: none;
@@ -598,13 +607,46 @@ body {
     font-size: 0.875rem;
     line-height: 1rem;
   }
+  .heart-img {
+    margin: 0 0 2.5rem;
+  }
+  .heart-img__768 {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 256px;
+    width: 100%;
+  }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+  .heart {
+    margin: 2.25rem 0 2.25rem;
+  }
   .heart1440 {
     display: none;
   }
   .heart768 {
     display: flex;
+  }
+  .heart-tiitle {
+    font-size: 1.75rem;
+    line-height: 2rem;
+    margin-bottom: 1.25rem;
+  }
+  .heart-text {
+    font-size: 0.875rem;
+    line-height: 1rem;
+  }
+  .heart-img {
+    margin: 0 0 2.5rem;
+  }
+  .heart-img__768 {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 256px;
+    width: 100%;
+  }
+  .heart-img__320 {
+    margin: 0 0 2.5rem;
   }
   .order:first-child {
     order: 0;
@@ -625,6 +667,7 @@ body {
     order: 1;
   }
 }
+/* -----------------------------------INVITATION---------------------------------- */
 .invitation {
   background-image: url(../assets/pic/invitation/U2A25461.png);
   background-repeat: no-repeat;
@@ -668,6 +711,8 @@ body {
   font-size: 0.875rem;
   font-family: "PR", sans-serif;
   text-transform: uppercase;
+  line-height: normal;
+  letter-spacing: 0.28px;
   transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
   margin: 2.125rem 0 4.5rem;
 }
@@ -689,16 +734,40 @@ body {
 @media (min-width: 768px) and (max-width: 1279px) {
   .invitation-tittle {
     font-size: 1.75rem;
-    line-height: 1.5rem;
+    line-height: 2rem;
     padding: 53px 0 17px;
+  }
+  .invitation-text {
+    font-size: 0.875rem;
+    line-height: 1rem;
   }
   .invitation-btn {
     width: 12.5rem;
     height: 3rem;
     font-size: 0.75rem;
     margin: 2.125rem 0 5rem;
+    letter-spacing: 0.24px;
   }
 }
+@media (max-width: 767px) {
+  .invitation-tittle {
+    font-size: 1.75rem;
+    line-height: 2rem;
+    padding: 53px 0 17px;
+  }
+  .invitation-text {
+    font-size: 0.875rem;
+    line-height: 1rem;
+  }
+  .invitation-btn {
+    height: 3rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.24px;
+    width: 12.1275rem;
+    margin: 2.1rem 0 2rem;
+  }
+}
+/* -----------------------------------FAVOURITES---------------------------------- */
 .favourites {
   margin: 3.75rem 0 9.75rem;
 }
@@ -755,8 +824,16 @@ body {
   transform: translateY(-50%);
 }
 
+.favourites-card {
+  width: 18rem;
+}
+
 .favourites-card__img {
   width: 18rem;
+}
+
+.favourites320 {
+  display: none;
 }
 
 @media (min-width: 1280px) and (max-width: 1439px) {
@@ -772,10 +849,39 @@ body {
     font-size: 1.75rem;
     line-height: 2rem;
   }
-  .card {
+  .favourites-card {
     width: 12.5rem;
   }
 }
+@media (max-width: 767px) {
+  .favourites1440 {
+    display: none;
+  }
+  .favourites320 {
+    display: block;
+  }
+  .favourites-card {
+    margin: 0 auto;
+  }
+  .favourites {
+    margin: 1.25rem 0 2rem;
+  }
+  .favourites-tittle {
+    font-size: 1.75rem;
+    line-height: 2rem;
+    margin-bottom: 3rem;
+  }
+  .card {
+    margin: 0 auto;
+  }
+  .card-text {
+    font-size: 0.875rem;
+    line-height: 1rem;
+    text-transform: capitalize;
+  }
+}
+/* -----------------------------------STARS--------------------------------------- */
+/* -----------------------------------LEARN-SECTION-------------------------------------- */
 body {
   color: #111111;
   font-family: "PR", sans-serif;
@@ -821,6 +927,7 @@ body {
     margin-bottom: 2rem;
   }
 }
+/* -----------------------------------QUESTIONS-SECTION----------------------------------- */
 .questions {
   background-image: url("../assets/pic/questions/questions_ring.png");
   background-position: right;
@@ -909,6 +1016,7 @@ body {
     background-color: #f2f2f2;
   }
 }
+/* -----------------------------------WHAT_NEW------------------------------------ */
 .what_new {
   background-image: url(../assets/pic/what_new/Gradient.png);
   background-repeat: no-repeat;
@@ -945,10 +1053,12 @@ body {
   margin-bottom: 5.5rem;
 }
 
+/* -----------------------------------INSTAGRAM----------------------------------- */
 .instagram {
   background-color: #f2f2f2;
 }
 
+/* -----------------------------------FOOTER-------------------------------------- */
 .footer {
   height: 19rem;
   padding: 3.25rem 0 4.75rem 0;
