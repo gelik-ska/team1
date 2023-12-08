@@ -718,7 +718,7 @@ body {
 }
 
 .invitation-btn:hover {
-  background-color: rgba(51, 51, 51, 0.5254901961);
+  background-color: #333333;
   color: white;
 }
 
