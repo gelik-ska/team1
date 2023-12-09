@@ -514,9 +514,9 @@ body {
 /* -----------------------------------WHY_CHOOSE---------------------------------- */
 /* -----------------------------------QUOTE--------------------------------------- */
 /* -----------------------------------AS_SEEN------------------------------------- */
-/* -----------------------------------WEDDING_RINGS------------------------------- */
 @media (min-width: 1440px) {
   .wedding_rings {
+    display: flex;
     margin: 0 auto;
     max-height: 41rem;
   }
@@ -623,6 +623,11 @@ body {
 @media (min-width: 768px) and (max-width: 1279px) {
   .wedding_rings {
     display: flex;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  #jumbotron {
+    display: flex;
     background-image: url(../assets/pic/wedding_rings/Wedding_Rings_768.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -651,7 +656,7 @@ body {
     line-height: 1rem;
     color: white;
     text-align: center;
-    margin: 0 auto;
+    margin: 2%;
     max-width: 528px;
     min-width: 500px;
   }
@@ -699,19 +704,19 @@ body {
 @media (max-width: 767px) {
   .wedding_rings {
     display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    min-width: 320px;
+  }
+  #jumbotron {
+    display: flex;
     background-image: url(../assets/pic/wedding_rings/Wedding_Rings_320.png);
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0 auto;
     justify-content: center;
-    min-width: 320px;
     align-items: center;
     flex-wrap: nowrap;
-  }
-  #jumbotron {
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
   }
   #div_1 {
     margin: 5%;
@@ -735,7 +740,6 @@ body {
     text-align: center;
     margin: 0 auto;
     max-width: 264px;
-    padding-top: 3%;
   }
   #rings_content {
     display: none;
@@ -779,9 +783,8 @@ body {
     color: black;
   }
 }
-/* -----------------------------------DIAMONDS------------------------------------ */
 @media (min-width: 1440px) {
-  .diamonds {
+  .diamonds2 {
     background-image: url(../assets/pic/diamonds/Guide_To_Diamonds.png);
     display: flex;
     background-size: cover;
@@ -835,7 +838,7 @@ body {
   }
 }
 @media (min-width: 1280px) and (max-width: 1439px) {
-  .diamonds {
+  .diamonds2 {
     background-image: url("../assets/pic/diamonds/Guide_To_Diamonds_1280.png");
     display: flex;
     background-size: cover;
@@ -888,7 +891,7 @@ body {
   }
 }
 @media (min-width: 768px) and (max-width: 1279px) {
-  .diamonds {
+  .diamonds2 {
     background-image: url("../assets/pic/diamonds/Guide_To_Diamonds_1280.png");
     display: flex;
     background-size: cover;
@@ -1002,139 +1005,6 @@ body {
     margin: 0 auto;
   }
 }
-@media (min-width: 1440px) {
-  .deamond_gia {
-    display: none;
-  }
-  .dropdown_divider_2 {
-    display: none;
-  }
-}
-@media (min-width: 1280px) and (max-width: 1439px) {
-  .dropdown_divider_2 {
-    display: flex;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid black;
-    padding: 0;
-    margin: 0 auto;
-    max-width: 1439px;
-    opacity: 100;
-  }
-  #gia {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: nowrap;
-    margin: 4%;
-  }
-  .gia_text {
-    display: flex;
-    flex-direction: column;
-    max-width: 50%;
-  }
-  #title_gia {
-    color: #000;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-  }
-  #text_gia_text {
-    color: #000;
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 2rem; /* 177.778% */
-    text-transform: capitalize;
-    max-width: 33.56rem;
-  }
-  .gia_content {
-    margin: 0 auto;
-  }
-  .img_gia {
-    width: 30.625rem;
-  }
-}
-@media (min-width: 768px) and (max-width: 1279px) {
-  .dropdown_divider_2 {
-    display: none;
-  }
-  #gia {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: nowrap;
-    margin: 3%;
-  }
-  .gia_text {
-    display: flex;
-    flex-direction: column;
-    max-width: 50%;
-  }
-  #title_gia {
-    color: #000;
-    font-size: 0.875rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-  }
-  #text_gia_text {
-    color: #000;
-    font-size: 0.875rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1rem; /* 177.778% */
-    text-transform: capitalize;
-    max-width: 19.625rem;
-  }
-  .gia_content {
-    margin: 0 auto;
-  }
-  .img_gia {
-    width: 19.625rem;
-  }
-}
-@media (max-width: 767px) {
-  .dropdown_divider_2 {
-    display: none;
-  }
-  #gia {
-    display: flex;
-    flex-direction: column;
-    margin: 4%;
-    justify-content: center;
-  }
-  .gia_text {
-    display: flex;
-    flex-direction: column;
-    max-width: 90%;
-  }
-  .img_gia {
-    min-width: 16.5rem;
-    margin: 0 auto;
-    max-width: 90%;
-  }
-  .gia_content {
-    margin: 0 auto;
-  }
-  #title_gia {
-    color: #000;
-    font-size: 0.875rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-  }
-  #text_gia_text {
-    color: #000;
-    font-size: 0.875rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1rem; /* 177.778% */
-    text-transform: capitalize;
-  }
-}
-/* -----------------------------------HEART--------------------------------------- */
 .heart {
   margin-top: 5.25rem;
   margin-bottom: 5.5rem;
@@ -1664,11 +1534,6 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
   margin-bottom: 5.5rem;
 }
-.what_new__button:hover {
-  background-color: #333333;
-  color: white;
-  border-color: #ffffff;
-}
 
 /*-----------------1280-VERSION-WHAT_NEW----------------------*/
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
@@ -1884,4 +1749,4 @@ body {
     margin: 0;
     padding: 0;
   }
-}/*# sourceMappingURL=style.css.map */
+}
