@@ -1008,6 +1008,147 @@ body {
   }
 }
 
+@media (min-width: 1440px) {
+  .deamond_gia {
+    display: none;
+  }
+  .dropdown_divider_2 {
+    display: none;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+  .dropdown_divider_2 {
+    display: flex;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1439px;
+    opacity: 100;
+  }
+
+  #gia {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 4%;
+  }
+  .gia_text {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+  }
+  #title_gia {
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  #text_gia_text {
+    color: #000;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem; /* 177.778% */
+    text-transform: capitalize;
+    max-width: 33.56rem;
+  }
+  .gia_content {
+    margin: 0 auto;
+  }
+  .img_gia {
+    width: 30.625rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .dropdown_divider_2 {
+    display: none;
+  }
+
+  #gia {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 3%;
+  }
+  .gia_text {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+  }
+  #title_gia {
+    color: #000;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  #text_gia_text {
+    color: #000;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem; /* 177.778% */
+    text-transform: capitalize;
+    max-width: 19.625rem;
+  }
+  .gia_content {
+    margin: 0 auto;
+  }
+  .img_gia {
+    width: 19.625rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .dropdown_divider_2 {
+    display: none;
+  }
+
+  #gia {
+    display: flex;
+    flex-direction: column;
+    margin: 4%;
+    justify-content: center;
+  }
+  .gia_text {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+  }
+  .img_gia {
+    min-width: 16.5rem;
+    margin: 0 auto;
+    max-width: 90%;
+  }
+  .gia_content {
+    margin: 0 auto;
+  }
+
+  #title_gia {
+    color: #000;gi
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  #text_gia_text {
+    color: #000;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem; /* 177.778% */
+    text-transform: capitalize;
+  }
+}
+
+
 // -----------------------------------HEART--------------------------------------- //
 .heart {
   margin-top: 5.25rem;
@@ -1350,6 +1491,88 @@ body {
 /* -----------------------------------STARS--------------------------------------- */
 
 /* -----------------------------------LEARN-SECTION-------------------------------------- */
+.text-stars {
+  display: flex;
+  justify-content: flex-start;
+  width: 424px;
+  height: 208.79px;
+  top: 61px;
+  left: 169px;
+}
+
+.five-star {
+  display: flex;
+  justify-content: flex-start;
+  width: 424px;
+  height: 143.91px;
+  top: 61px;
+  left: 169px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  font-family: "LP", sans-serif;
+  color: $black;
+}
+
+.say {
+  display: flex;
+  width: 328px;
+  height: 31.98px;
+  top: 237.81px;
+  left: 169px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: "LP", sans-serif;
+  color: $black;
+}
+
+.rating {
+display: flex;
+justify-content: flex-end;
+width: 377px;
+height: 65.96px;
+top: 67.91px;
+left: 894px;
+}
+
+.images_stars {
+width: 114.5px;
+height: 15.88px;
+top: 383.96px;
+left: 1073px;
+}
+
+.images_stars_2 {
+width: 37px;
+height: 29.98px;
+top: 103.89px;
+left: 1063px;
+}
+
+.five-star {
+width: 155px;
+height: 16.99px;
+top: 111.88px;
+left: 1116px;
+font-weight: 500;
+size: 14px;
+line-height:  17.07px;
+color: $black;
+}
+
+.cards {
+display: flex;
+width: 1440px;
+height: 1088px;
+top: 320px;
+border-radius: 20px;
+}
+
+
+// -----------------------------------LEARN-SECTION-------------------------------------- //
 body {
   color: $black;
   font-family: "PR", sans-serif;
