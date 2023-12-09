@@ -23,15 +23,15 @@
 
 @font-face {
   font-family: "PR";
-  src: url(../assets/fonts/lp/lenorapremium_regular.eot);
-  src: url(../assets/fonts/pr/proximanova_regular.eot?#iefix) format("embedded-opentype"), url(../assets/fonts/pr/proximanova_regular.woff) format("woff"), url(../assets/fonts/pr/proximanova_regular.woff2) format("woff2");
+  src: url("../assets/fonts/lp/lenorapremium_regular.eot");
+  src: url("../assets/fonts/pr/proximanova_regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/pr/proximanova_regular.woff") format("woff"), url("../assets/fonts/pr/proximanova_regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "LP";
-  src: url(./lenorapremium_regular.eot);
-  src: url(./lenorapremium_regular.eot?#iefix) format("embedded-opentype"), url(./lenorapremium_regular.woff) format("woff"), url(./lenorapremium_regular.woff2) format("woff2");
+  src: url("../assets/fonts/lp/lenorapremium_regular.eot");
+  src: url("../assets/fonts/lp/lenorapremium_regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/lp/lenorapremium_regular.woff") format("woff"), url("../assets/fonts/lp/lenorapremium_regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -242,13 +242,280 @@ body {
     margin: 0 auto;
   }
 }
+.header-banner {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 65px;
+}
+.header-banner img {
+  max-width: 100%;
+  height: auto;
+}
+.header-banner .box-header-banner {
+  top: 104px;
+  left: 56px;
+  max-width: 424px;
+  position: absolute;
+}
+.header-banner__title {
+  font-size: 3.75rem;
+  line-height: 1.06;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.header-banner__text {
+  font-size: 1.25rem;
+  margin: 0.875rem 0 1.625rem;
+  line-height: 1.2;
+  color: #ffffff;
+}
+.header-banner .btn.primary {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+@media (max-width: 1280px) {
+  .header-banner .box-header-banner {
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 530px;
+  }
+  .header-banner__title {
+    font-size: 80px;
+  }
+  .header-banner__text {
+    font-size: 22px;
+    max-width: 450px;
+    margin: 1.375rem 0 3.4375rem;
+  }
+  .header-banner .btn.primary {
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+  }
+}
+@media (max-width: 768px) {
+  .header-banner {
+    position: static;
+  }
+  .header-banner img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: right top;
+       object-position: right top;
+  }
+  .header-banner .box-header-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: static;
+    transform: translateY(0);
+    max-width: 100%;
+  }
+  .header-banner__title {
+    font-size: 28px;
+    text-align: center;
+    max-width: 300px;
+    color: #111111;
+    margin-top: 53px;
+  }
+  .header-banner__text {
+    font-size: 14px;
+    text-align: center;
+    max-width: 450px;
+    color: #111111;
+    margin: 1.9375rem 0 2.75rem;
+  }
+  .header-banner .btn.primary {
+    font-size: 12px;
+    color: #111111;
+    border: 1px solid #111111;
+    background-color: transparent;
+    max-width: 200px;
+    max-height: 48px;
+    margin: 0 17.75rem 4rem 17.75rem;
+    padding: 0 1.875rem 0 1.875rem;
+  }
+}
+@media (max-width: 320px) {
+  .header-banner {
+    position: static;
+  }
+  .header-banner img {
+    height: 300px;
+    width: 320px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: right;
+       object-position: right;
+  }
+  .header-banner .box-header-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: static;
+    transform: translateY(0);
+    max-width: 100%;
+  }
+  .header-banner__title {
+    font-size: 28px;
+    text-align: center;
+    max-width: 264px;
+    color: #111111;
+    margin-top: 37px;
+  }
+  .header-banner__text {
+    font-size: 14px;
+    text-align: center;
+    max-width: 264px;
+    color: #111111;
+    margin: 0.9375rem 0 1.75rem;
+  }
+  .header-banner .btn.primary {
+    font-size: 12px;
+    color: #111111;
+    background-color: transparent;
+  }
+}
 /* -----------------------------------MAIN---------------------------------------- */
+/* ---------------------------------SHOP_BY--------------------------------------- */
+.shop_by {
+  padding: 3%;
+}
+
+.shop_by_name {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.rings_block {
+  margin: 2% 1%;
+}
+
+.rings_img2 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-left: auto;
+  margin-right: 50%;
+  margin-top: -18%;
+  left: 0;
+  right: 0;
+  align-items: center;
+}
+
+.rings_img1 {
+  margin-left: 14%;
+  margin-top: 4%;
+}
+
+.rings_text_block {
+  margin-top: 2%;
+}
+
+.rings_block_full {
+  display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .rings_img2 {
+    display: none;
+  }
+  .rings_block {
+    display: none;
+  }
+  .rings_block_full {
+    height: 500px;
+    text-align: center;
+    color: white;
+    display: block;
+    background-image: url(/assets/pic/rings/img3.png);
+    background-size: 100%;
+    padding: 50px;
+    background-repeat: no-repeat;
+    font-size: 1rem;
+  }
+  .rings_block_full h1 {
+    margin-bottom: 30px;
+  }
+  .rings_block_full a {
+    color: white;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+  }
+}
+@media (min-width: 500px) and (max-width: 767px) {
+  .rings_img2 {
+    display: none;
+  }
+  .rings_block {
+    display: none;
+  }
+  .rings_block_full {
+    height: 300px;
+    text-align: center;
+    color: white;
+    display: block;
+    background-image: url(/assets/pic/rings/img1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 30px;
+    font-size: 1rem;
+  }
+  .rings_block_full_title {
+    margin-bottom: 30px;
+  }
+  .rings_block_full a {
+    color: white;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    margin-top: 0;
+  }
+}
+@media (min-width: 320px) and (max-width: 499px) {
+  .rings_img2 {
+    display: none;
+  }
+  .rings_block {
+    display: none;
+  }
+  .rings_block_full {
+    height: 500px;
+    text-align: center;
+    color: white;
+    display: block;
+    background-image: url(/assets/pic/rings/img1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 10px;
+    font-size: 0.7rem;
+  }
+  .rings_block_full_title {
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+  .rings_block_full a {
+    color: white;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    margin-top: 0;
+  }
+}
 /* -----------------------------------WHY_CHOOSE---------------------------------- */
 /* -----------------------------------QUOTE--------------------------------------- */
 /* -----------------------------------AS_SEEN------------------------------------- */
 @media (min-width: 1440px) {
   .wedding_rings {
-    display: flex;
     margin: 0 auto;
     max-height: 41rem;
   }
@@ -355,11 +622,6 @@ body {
 @media (min-width: 768px) and (max-width: 1279px) {
   .wedding_rings {
     display: flex;
-    margin: 0 auto;
-    justify-content: center;
-  }
-  #jumbotron {
-    display: flex;
     background-image: url(../assets/pic/wedding_rings/Wedding_Rings_768.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -388,7 +650,7 @@ body {
     line-height: 1rem;
     color: white;
     text-align: center;
-    margin: 2%;
+    margin: 0 auto;
     max-width: 528px;
     min-width: 500px;
   }
@@ -436,19 +698,19 @@ body {
 @media (max-width: 767px) {
   .wedding_rings {
     display: flex;
-    margin: 0 auto;
-    justify-content: center;
-    min-width: 320px;
-  }
-  #jumbotron {
-    display: flex;
     background-image: url(../assets/pic/wedding_rings/Wedding_Rings_320.png);
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0 auto;
     justify-content: center;
+    min-width: 320px;
     align-items: center;
     flex-wrap: nowrap;
+  }
+  #jumbotron {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
   }
   #div_1 {
     margin: 5%;
@@ -472,6 +734,7 @@ body {
     text-align: center;
     margin: 0 auto;
     max-width: 264px;
+    padding-top: 3%;
   }
   #rings_content {
     display: none;
@@ -516,7 +779,7 @@ body {
   }
 }
 @media (min-width: 1440px) {
-  .diamonds2 {
+  .diamonds {
     background-image: url(../assets/pic/diamonds/Guide_To_Diamonds.png);
     display: flex;
     background-size: cover;
@@ -570,7 +833,7 @@ body {
   }
 }
 @media (min-width: 1280px) and (max-width: 1439px) {
-  .diamonds2 {
+  .diamonds {
     background-image: url("../assets/pic/diamonds/Guide_To_Diamonds_1280.png");
     display: flex;
     background-size: cover;
@@ -623,7 +886,7 @@ body {
   }
 }
 @media (min-width: 768px) and (max-width: 1279px) {
-  .diamonds2 {
+  .diamonds {
     background-image: url("../assets/pic/diamonds/Guide_To_Diamonds_1280.png");
     display: flex;
     background-size: cover;
@@ -735,6 +998,138 @@ body {
   .four_diamonds_picture {
     width: 100%;
     margin: 0 auto;
+  }
+}
+@media (min-width: 1440px) {
+  .deamond_gia {
+    display: none;
+  }
+  .dropdown_divider_2 {
+    display: none;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1439px) {
+  .dropdown_divider_2 {
+    display: flex;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1439px;
+    opacity: 100;
+  }
+  #gia {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 4%;
+  }
+  .gia_text {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+  }
+  #title_gia {
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  #text_gia_text {
+    color: #000;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem; /* 177.778% */
+    text-transform: capitalize;
+    max-width: 33.56rem;
+  }
+  .gia_content {
+    margin: 0 auto;
+  }
+  .img_gia {
+    width: 30.625rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1279px) {
+  .dropdown_divider_2 {
+    display: none;
+  }
+  #gia {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 3%;
+  }
+  .gia_text {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+  }
+  #title_gia {
+    color: #000;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  #text_gia_text {
+    color: #000;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem; /* 177.778% */
+    text-transform: capitalize;
+    max-width: 19.625rem;
+  }
+  .gia_content {
+    margin: 0 auto;
+  }
+  .img_gia {
+    width: 19.625rem;
+  }
+}
+@media (max-width: 767px) {
+  .dropdown_divider_2 {
+    display: none;
+  }
+  #gia {
+    display: flex;
+    flex-direction: column;
+    margin: 4%;
+    justify-content: center;
+  }
+  .gia_text {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+  }
+  .img_gia {
+    min-width: 16.5rem;
+    margin: 0 auto;
+    max-width: 90%;
+  }
+  .gia_content {
+    margin: 0 auto;
+  }
+  #title_gia {
+    color: #000;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  #text_gia_text {
+    color: #000;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem; /* 177.778% */
+    text-transform: capitalize;
   }
 }
 /* -----------------------------------HEART--------------------------------------- */
@@ -1096,12 +1491,24 @@ body {
 }
 
 .learn {
-  background-image: url("../assets/pic/learn/Gradient.png");
-  background-size: contain;
-  background-repeat: no-repeat;
+  position: relative; /* Чтобы псевдоэлемент был позиционирован относительно этого контейнера */
   padding: 3.75rem 0;
-  font-family: "PR", sans-serif;
   font-size: 40px;
+  background-size: contain;
+  overflow: hidden; /* Чтобы изображение не выходило за пределы контейнера */
+}
+
+.learn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 18.75rem;
+  background-image: url("../assets/pic/learn/Gradient.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1; /* Чтобы псевдоэлемент был "позади" основного содержимого */
 }
 
 /*-----------------MOBILE-VERSION-LEARN----------------------*/
@@ -1206,11 +1613,11 @@ body {
 }
 /* -----------------------------------WHAT_NEW------------------------------------ */
 .what_new {
-  background-image: url(../assets/pic/what_new/Gradient.png);
-  background-repeat: no-repeat;
+  position: relative;
+  padding: 3.75rem 0;
   background-size: contain;
-  padding: 3.75rem 0 0 0;
   font-family: "PR", sans-serif;
+  overflow: hidden;
 }
 .what_new__text-title {
   font-size: 2.5rem;
@@ -1272,6 +1679,19 @@ body {
     height: 7rem;
   }
 }
+.what_new::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 18.75rem;
+  background-repeat: no-repeat;
+  background-image: url("../assets/pic/learn/Gradient.png");
+  background-size: cover;
+  z-index: -1;
+}
+
 /*-----------------768-VERSION-WHAT_NEW----------------------*/
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .what_new {
@@ -1462,4 +1882,4 @@ body {
     margin: 0;
     padding: 0;
   }
-}
+}/*# sourceMappingURL=style.css.map */
